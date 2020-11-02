@@ -1,10 +1,9 @@
-package GameLauncherPack;
-import GuessGamePack.GuessGame;
+import GuessGame.GuessGame;
 
 public class GameLauncher {
     public static void main (String[] args) {
         //creates instance variable based on class GuessGame and runs it
-        GuessGamePack.GuessGame game = new GuessGame();
+        GuessGame game = new GuessGame();
         game.startGame();
     }
 }
